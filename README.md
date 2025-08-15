@@ -1,70 +1,162 @@
-🍽️ Surat Restaurant Sentiment Analysis
+# 🍽️ Surat Restaurant Sentiment Analysis
 
-This project provides a command-line and Streamlit-based dashboard for analyzing customer reviews of Surat restaurants.
+An advanced sentiment analysis platform that combines AI-powered review collection, custom API sentiment analysis, and interactive visualization for Surat restaurants. The system supports both real-time web scraping and TSV/CSV file analysis, providing comprehensive insights into customer experiences.
 
-The workflow combines:
+## ✨ Key Features
 
-an AI agent that automatically searches the web and collects real customer reviews (e.g. from Zomato, review blogs, listings, etc.)
+### 🤖 Multi-Source Analysis
+- **Web Scraping**: Autonomous AI agent for collecting real reviews
+- **File Processing**: Support for TSV and CSV file analysis
+- **API Integration**: Custom sentiment analysis service
+- **Comparative Analysis**: Original vs API sentiment comparison
 
-a custom sentiment analysis API used to evaluate each collected review
+### 📊 Interactive Dashboard
+- **Real-time Processing**
+  - Live progress tracking
+  - Cached results for performance
+  - Instant visualization updates
 
-an interactive dashboard that visualizes sentiment distribution, polarity trends, and review-level insights (TSV and CSV support)
+### 📈 Advanced Visualizations
+- Sentiment comparison charts
+- Polarity distribution graphs
+- Restaurant performance metrics
+- Interactive filtering system
 
-────────────────────────────────────────────────────────────────────▶ MAIN COMPONENTS
+### 📋 Comprehensive Metrics
+- Total review statistics
+- API accuracy measurements
+- Sentiment polarity analysis
+- Restaurant-wise comparisons
 
-Review Collection Agent (Web + API)
-The agent (agent.py) fetches real restaurant reviews from the web and sends each review to your custom sentiment API. Results are saved to a CSV file in the /data folder.
+## 🛠️ Technical Architecture
 
-Real Review TSV Analysis (API + Comparison)
-A TSV file (Restaurant_Reviews.tsv) containing real reviews and ground-truth ratings can be analyzed using the same API. The dashboard compares the API prediction with the original rating and computes accuracy + detailed metrics.
-
-────────────────────────────────────────────────────────────────────
-▶ FEATURES
-
-• Real-world review collection via autonomous agent• Sentiment scoring via custom REST API• TSV analysis with original vs API sentiment comparison• API accuracy and polarity metrics• Polarity distribution histogram• Restaurant-level comparison chart• Filterable review table• Caching to avoid re-processing• Streamlit dashboard with Plotly visualizations
-
-────────────────────────────────────────────────────────────────────▶ PROJECT STRUCTURE
-
-surat-foodie-dashboard-v2/
-├── agent.py                     ← AI web review collection agent
-├── data_sentiment.py            ← API sentiment enrichment script
-├── app.py                       ← Streamlit dashboard
+### Project Structure
+```
+surat-foodie-dashboard/
+├── agent.py                     # AI web review collection
+├── data_sentiment.py            # API sentiment processing
+├── app.py                       # Streamlit dashboard
 ├── data/
-│   ├── raw_reviews.json         ← Collected reviews (raw)
-│   ├── surat_restaurant_reviews.csv ← API-scored reviews (CSV)
-│   └── Restaurant_Reviews.tsv   ← Ground-truth TSV (real reviews + rating)
+│   ├── raw_reviews.json        # Collected raw reviews
+│   ├── surat_restaurant_reviews.csv  # Processed reviews
+│   └── Restaurant_Reviews.tsv  # Ground-truth dataset
 ├── requirements.txt
 └── README.md
+```
 
-────────────────────────────────────────────────────────────────────▶ REQUIREMENTS
+### Requirements
+- Python 3.9+
+- Environment setup:
+  ```bash
+  export GOOGLE_API_KEY=<your_api_key>
+  ```
+- API Endpoint:
+  ```
+  https://sentiment-api-service-fzdu57t2fa-uc.a.run.app/predict
+  ```
 
-• Python 3.9+• Environment variable:
-export GOOGLE_API_KEY=<your_api_key>• Custom Sentiment API available at:
-https://sentiment-api-service-fzdu57t2fa-uc.a.run.app/predict
+## 🚀 Getting Started
 
-Install dependencies:
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/OMCHOKSI108/surat-resturant-sentiment-analysis-using-api.git
+cd surat-resturant-sentiment-analysis-using-api
 
-$ pip install -r requirements.txt
+# Install dependencies
+pip install -r requirements.txt
+```
 
-────────────────────────────────────────────────────────────────────▶ USAGE
+### Data Setup
+1. For TSV Analysis:
+   - Place `Restaurant_Reviews.tsv` in `data/` folder
+   - Required columns: 
+     - Review (text)
+     - Liked (sentiment)
 
-Place a TSV file named Restaurant_Reviews.tsv in the data/ folder (columns: Review, Liked).
+2. For Web Scraping:
+   - Configure API key in environment
+   - Ensure internet connectivity
 
-Run the app:
+### Running the Dashboard
+```bash
+streamlit run app.py
+```
 
-$ streamlit run app.py
+## 💡 Usage Guide
 
-Use the buttons in the dashboard:
+### Dashboard Controls
 
-[1] Generate Reviews (Web Agent)→ Collects real reviews and saves them in CSV
+1. **Generate Reviews** 
+   - Activates web scraping agent
+   - Collects real restaurant reviews
+   - Saves to CSV format
 
-[2] Analyze Sentiments (CSV)→ Sends collected reviews to API and stores results
+2. **Analyze Sentiments**
+   - Processes collected reviews
+   - Applies API sentiment analysis
+   - Generates detailed metrics
 
-[3] Analyze Reviews from TSV→ Loads Restaurant_Reviews.tsv and compares API predictions to the original ratings
+3. **Analyze TSV Reviews**
+   - Loads TSV file data
+   - Compares with API predictions
+   - Shows accuracy metrics
 
-────────────────────────────────────────────────────────────────────▶ OUTPUT (TSV ANALYSIS)
+### Analysis Features
 
-• Total number of reviews analyzed• API accuracy vs original rating• Average polarity score• Bar chart: Original vs API sentiment• Histogram: Polarity score distribution• Filterable table with review, original rating, and API prediction
+#### Data Processing
+- Custom API integration
+- Sentiment classification
+- Polarity scoring
+- Accuracy metrics
 
-────────────────────────────────────────────────────────────────────
+#### Visualization Tools
+- Comparison charts
+- Distribution graphs
+- Interactive filters
+- Detailed results table
 
+#### Performance Features
+- Progress tracking
+- Data caching
+- Real-time updates
+
+## 📊 Output Analysis
+
+### Metrics Dashboard
+- Total review count
+- API accuracy percentage
+- Average sentiment polarity
+- Restaurant-wise performance
+
+### Interactive Components
+- Sentiment comparison charts
+- Polarity distribution
+- Filterable results
+- Detailed review analysis
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit changes:
+   ```bash
+   git commit -m 'Add YourFeature'
+   ```
+4. Push to branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open Pull Request
+
+## 📞 Contact & Support
+
+- GitHub: [@OMCHOKSI108](https://github.com/OMCHOKSI108)
+- Project Link: [surat-resturant-sentiment-analysis-using-api](https://github.com/OMCHOKSI108/surat-resturant-sentiment-analysis-using-api)
+
+## 📝 License
+
+This project is licensed under the MIT License.
