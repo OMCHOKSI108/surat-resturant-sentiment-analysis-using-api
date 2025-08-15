@@ -1,0 +1,61 @@
+restaurant,review,sentiment,polarity
+"Ziba Restaurant, Adajan","Ziba's food was delicious!  The butter chicken was especially flavorful, and the service was quick and friendly.",Positive,0.22166666666666668
+"Ziba Restaurant, Adajan","The ambiance at Ziba Restaurant is quite pleasant, perfect for a family dinner.  However, the prices are a bit higher than other comparable restaurants in Adajan.",Positive,0.46458333333333335
+"Ziba Restaurant, Adajan","I had a decent meal at Ziba, nothing extraordinary.  The portion sizes were good, but the taste was average.",Positive,0.2625
+"Ziba Restaurant, Adajan","The service was incredibly slow, we waited ages for our food.  The food itself was okay, but the wait really soured the experience.",Negative,-0.03333333333333335
+"Ziba Restaurant, Adajan","Ziba Restaurant offers great value for money. The food was tasty and the portions were generous, making it a worthwhile experience.",Positive,0.4666666666666666
+"Ziba Restaurant, Adajan",Absolutely loved the biryani at Ziba!  It was perfectly cooked and bursting with flavor. Highly recommend it!,Positive,0.6916666666666668
+"Ziba Restaurant, Adajan","The restaurant was quite noisy and crowded, making it difficult to have a conversation. The food was fine, but the atmosphere detracted from the experience.",Negative,-0.04166666666666666
+"Ziba Restaurant, Adajan","While the food was good, I found the service to be somewhat inattentive.  They seemed understaffed, leading to long waits between courses.",Positive,0.32499999999999996
+"Ziba Restaurant, Adajan","Ziba is a reliable choice for a quick and tasty meal in Adajan. The food is consistently good, and the prices are reasonable.",Positive,0.41111111111111104
+"Ziba Restaurant, Adajan",We were disappointed with the quality of the vegetarian dishes. They lacked flavor and felt rushed. The non-vegetarian options seemed much better.,Negative,-0.125
+"The Royal Cafe, Athwa","The Royal Cafe is a Surat institution!  Their Masala Dosa is legendary, crispy and flavorful, and the service is always friendly and efficient.",Positive,0.6875
+"The Royal Cafe, Athwa","Decent place for a quick bite in Athwa.  The food was okay, nothing special, but the prices were reasonable.  Wouldn't go out of my way for it.",Positive,0.31142857142857144
+"The Royal Cafe, Athwa","Loved the ambiance! Very clean and nicely decorated.  The food was good too, especially their pav bhaji, but the service was a bit slow.",Positive,0.39194444444444443
+"The Royal Cafe, Athwa","Honestly, quite disappointed.  The food was cold and the chai was lukewarm.  Not worth the price at all.",Negative,-0.225
+"The Royal Cafe, Athwa","A reliable spot for breakfast in Athwa.  The idlis are soft and fluffy, and the filter coffee is strong and delicious.  Good value for money.",Positive,0.4066666666666666
+"The Royal Cafe, Athwa","The Royal Cafe is always busy, which speaks volumes.  The food is consistently good, and I appreciate the quick service even during peak hours.",Positive,0.37777777777777777
+"The Royal Cafe, Athwa","While the food was tasty, the portions were quite small for the price.  It felt a little overpriced for what we got.",Negative,-0.21875
+"The Royal Cafe, Athwa","I've been going to The Royal Cafe for years, and the quality has remained consistently high.  Highly recommend their South Indian dishes.",Positive,0.16
+"The Royal Cafe, Athwa","The ambiance is a bit dated, but it's clean and comfortable enough.  The food is average, nothing exceptional, but it's a convenient location.",Positive,0.25666666666666665
+"The Royal Cafe, Athwa","Had a terrible experience.  Our order was wrong, and the staff were unhelpful and rude when we tried to rectify it.  Avoid this place.",Negative,-0.6
+"Coffee Culture, Vesu","Coffee Culture Vesu is a great spot for a quick coffee and pastry. The pastries are fresh and delicious, and the service is always friendly and efficient.  Good value for money too!",Positive,0.6138888888888889
+"Coffee Culture, Vesu","The ambiance at Coffee Culture is quite pleasant, perfect for a relaxed meeting or some quiet work. However, the coffee itself was a bit weak and underwhelming for the price.",Positive,0.33958333333333335
+"Coffee Culture, Vesu","I loved the atmosphere; it's cozy and inviting.  The service was a little slow, but the food made up for it - their sandwiches are amazing!",Positive,0.15250000000000002
+"Coffee Culture, Vesu","Honestly, I was disappointed.  The food was overpriced for the quality, and the service was quite inattentive.  Wouldn't rush back.",Negative,-0.05000000000000001
+"Coffee Culture, Vesu","Decent place for a coffee break. Nothing exceptional about the food or service, but it's clean and conveniently located.  Average experience overall.",Positive,0.21000000000000002
+"Coffee Culture, Vesu","Excellent coffee!  Strong, flavorful, and perfectly made.  The staff were incredibly helpful and friendly, creating a welcoming atmosphere.",Positive,0.7416666666666667
+"Coffee Culture, Vesu","The cafe has a nice modern design, but it can get quite noisy when it's busy. My cappuccino was good, but the cake I ordered was dry.",Positive,0.3066666666666667
+"Coffee Culture, Vesu","I had a fantastic experience at Coffee Culture Vesu. The food was delicious, the service was quick and attentive, and the overall atmosphere was very pleasant.  Highly recommend!",Positive,0.4695238095238095
+"Coffee Culture, Vesu","A bit pricey compared to other cafes in Surat, but the quality of the ingredients and the taste of the coffee justified the cost for me.  I'd go back.",Positive,0.09166666666666667
+"Coffee Culture, Vesu","The service was incredibly slow, and my order was incorrect.  The coffee was okay, but the overall experience was disappointing considering the reputation.",Negative,-0.1
+"Jugaad Nights, Vesu","The food at Jugaad Nights was surprisingly delicious!  The portions were generous, and the prices were very reasonable for the quality.",Positive,0.63
+"Jugaad Nights, Vesu","Ambiance was lively and fun, perfect for a group outing.  Service was a bit slow, though, even when the restaurant wasn't overly crowded.",Positive,0.28409090909090906
+"Jugaad Nights, Vesu","While the concept is unique, the food itself was just average. Nothing particularly stood out, and I wouldn't rush back.",Positive,0.09791666666666667
+"Jugaad Nights, Vesu","Excellent service! Our server was attentive and friendly, making the whole experience enjoyable. The food was good, but not exceptional.",Positive,0.4059523809523809
+"Jugaad Nights, Vesu","Jugaad Nights offers a great value for money. The food is tasty, and the prices are affordable, especially considering the fun atmosphere.",Positive,0.3
+"Jugaad Nights, Vesu","The music was a bit too loud for comfortable conversation.  The food was okay, but nothing special to warrant another visit.",Positive,0.3392857142857143
+"Jugaad Nights, Vesu",Loved the innovative dishes and the quirky decor!  A refreshing change from typical restaurants in Surat. Definitely recommend it.,Positive,0.25555555555555554
+"Jugaad Nights, Vesu",I found the food to be quite oily and the service somewhat inattentive.  It was a disappointing experience overall.,Negative,-0.3
+"Jugaad Nights, Vesu","A fun place for a casual dinner with friends. The food is decent, nothing amazing, but the atmosphere makes up for it.",Positive,0.14166666666666666
+"Jugaad Nights, Vesu","The presentation of the dishes was impressive.  However, the taste didn't quite live up to the visual appeal; it was a bit underwhelming.",Positive,0.37878787878787873
+"Tomatoes, Piplod","The tomatoes here are always fresh and juicy!  Great value for the price, and the staff are friendly and helpful.",Positive,0.5166666666666667
+"Tomatoes, Piplod","Decent place to pick up tomatoes. Nothing special, but they're consistently good quality and reasonably priced.",Positive,0.35595238095238096
+"Tomatoes, Piplod",I was disappointed with the tomatoes today. They were a bit bruised and not as ripe as I expected for the price.,Negative,-0.425
+"Tomatoes, Piplod","Love this place!  The selection of tomatoes is amazing, and they always seem to have exactly what I need.  Highly recommend!",Positive,0.41875
+"Tomatoes, Piplod","The service is quick and efficient, which is appreciated when you're just grabbing a few tomatoes on your way home.",Positive,0.1111111111111111
+"Tomatoes, Piplod","While the tomatoes are okay, the overall experience is nothing to write home about.  It's just a basic vegetable stall.",Positive,0.16666666666666666
+"Tomatoes, Piplod","I've been coming here for years.  The quality of their tomatoes is consistently good, and the price is fair.  They're my go-to for tomatoes.",Positive,0.7
+"Tomatoes, Piplod",The tomatoes were surprisingly tasteless. I've had better quality at the local market for a lower price.,Negative,-0.033333333333333326
+"Tomatoes, Piplod","A very simple setup, but the tomatoes are always fresh and well-priced.  They know their produce!",Positive,0.1875
+"Tomatoes, Piplod","Had a less than pleasant experience.  The staff was unhelpful and the tomatoes I bought weren't very ripe, resulting in a waste of money.",Positive,0.14166666666666666
+"Level 5, Vesu",The food at Level 5 was surprisingly delicious!  The presentation was beautiful and the flavors were unique. Definitely worth a visit.,Positive,0.63125
+"Level 5, Vesu","Service was a bit slow, even though the restaurant wasn't overly crowded.  The food itself was good, but the wait detracted from the experience.",Positive,0.19999999999999996
+"Level 5, Vesu","Level 5 has a fantastic ambiance; very stylish and modern.  However, the prices are quite high for what you get.",Positive,0.3525
+"Level 5, Vesu","Excellent food and great service!  We had a wonderful evening celebrating a birthday there, the staff were very attentive.",Positive,0.88
+"Level 5, Vesu","I found the food to be average, nothing particularly special.  The ambiance was nice, though, so it was a pleasant enough evening.",Positive,0.3080952380952381
+"Level 5, Vesu","The cocktails were amazing!  However, the main courses were a bit disappointing and lacked flavor.  Ambiance was great though.",Positive,0.2791666666666667
+"Level 5, Vesu","While the restaurant is beautifully designed, the noise level was quite high, making conversation difficult. The food was decent.",Positive,0.16916666666666666
+"Level 5, Vesu","Overall a good experience. The food was tasty and well-prepared, and the service was efficient.  A bit pricey, but worth it for a special occasion.",Positive,0.3392857142857143
+"Level 5, Vesu","I was extremely disappointed with the service. Our server was inattentive and our order was wrong. The food was okay, but not enough to make up for it.",Negative,-0.1875
+"Level 5, Vesu","The view from Level 5 is stunning!  The food was good, a little pricey, but the overall experience was elevated by the location and ambiance.",Positive,0.284375
