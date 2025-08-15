@@ -2,6 +2,17 @@
 
 An advanced sentiment analysis platform designed for comprehensive restaurant review analysis in Surat. This sophisticated system integrates multiple technologies and approaches to provide deep insights into customer experiences and sentiment patterns.
 
+## Application Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](assets/1.png)
+
+### Analysis Results
+![Analysis Results](assets/2.png)
+
+### Interactive Visualizations
+![Interactive Visualizations](assets/3.png)
+
 ## Introduction
 
 The Surat Restaurant Sentiment Analysis system represents a significant advancement in local restaurant review analysis. By combining artificial intelligence, machine learning, and data visualization, it offers restaurant owners and analysts powerful tools to understand customer sentiment and improve service quality.
