@@ -5,13 +5,13 @@ An advanced sentiment analysis platform designed for comprehensive restaurant re
 ## Application Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](assets/1.png)
+![Dashboard Overview](assets/image.png)
 
 ### Analysis Results
-![Analysis Results](assets/2.png)
+![Analysis Results](assets/5.png)
 
 ### Interactive Visualizations
-![Interactive Visualizations](assets/3.png)
+![Interactive Visualizations](assets/output.png)
 
 ## Introduction
 
