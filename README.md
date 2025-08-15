@@ -267,40 +267,6 @@ The dashboard provides comprehensive analytical metrics through multiple visuali
   - Historical data
   - Predictive insights
 
-## Development Guide
-
-### Contributing to the Project
-
-The project welcomes contributions from developers. Follow these structured steps:
-
-1. Repository Management:
-   - Fork the main repository
-   - Maintain up-to-date local copy
-
-2. Feature Development:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-
-3. Code Implementation:
-   - Follow coding standards
-   - Implement necessary tests
-   - Document changes
-
-4. Version Control:
-   ```bash
-   git commit -m 'Add YourFeature'
-   ```
-
-5. Submission Process:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-
-6. Quality Assurance:
-   - Create detailed Pull Request
-   - Address review comments
-   - Ensure CI/CD compliance
 
 ## Support and Contact
 
@@ -308,11 +274,6 @@ The project welcomes contributions from developers. Follow these structured step
 - GitHub Repository: [@OMCHOKSI108](https://github.com/OMCHOKSI108)
 - Project Documentation: [surat-resturant-sentiment-analysis-using-api](https://github.com/OMCHOKSI108/surat-resturant-sentiment-analysis-using-api)
 
-### Technical Support
-- Issue Tracking
-- Documentation Access
-- Community Support
-- Developer Resources
 
 ## Legal Information
 
